@@ -26,6 +26,9 @@ dependencies {
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    // thymeleaf
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf', version: '2.7.14'
 }
 
 tasks.named('test') {
